@@ -1,4 +1,4 @@
-# Trailer Filmes
+## Trailer Filmes
 
 Este é o projeto de estudo "Site de trailers de filmes" do curso de Desenvolvedor Web Full-Stack do módulo 1 do curso da Udacity.
 

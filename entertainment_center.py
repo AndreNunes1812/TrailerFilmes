@@ -9,21 +9,6 @@ BASE_URL_POSTER = "https://image.tmdb.org/t/p/w500"
 # variavel que identifica o caminho de acesso a visualização no YOUTUBE
 BASE_URL_YOUTUBE = "https://www.youtube.com/watch?v="
 
-# função que faz a leitura de um determinado arquivo  (movies_list.yaml)
-
-
-def get_movies_from_file():
-    """Recupera um conj de filmes no formato media.Movie"""
-    """a partir de um arquivo yam """
-
-    # Obtem a lista de filmes a partir de arquivo no formato yaml
-    movies_list_doc = open("filmes_lista.yaml")
-                              
-    # Le os dados do arquivo e instancia objetos da classe Movie
-    parsed_movies = yaml.load(movies_list_doc)
-    movies_list_doc.close()
-    return parsed_movies
-
 
 def get_id_youtube_trailer(movie_id):
     """ Recupera o identificador do trailer no youtube a partir da API do TMDB
@@ -54,8 +39,6 @@ def create_movie_from(r_dict):
     return media.Movie(title, storyline, poster_path, youtube_trailer)
 
 # Função que dispara para fazer o consumo da API ( https://www.themoviedb.org )
-
-
 def get_movies_from_tmdb():
     """Retorna uma lista de filmes.
 
@@ -89,7 +72,6 @@ try:
     filmes = get_movies_from_tmdb()
     print("com internet")
 except:
-    filmes = get_movies_from_file()
     print("sem internet")
 
 # Função que abre o browse e gera os filmes conforme modelo definido.
