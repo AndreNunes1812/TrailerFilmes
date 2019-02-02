@@ -1,0 +1,36 @@
+# Esse arquivo será utilizado pela falta de internet ou alguma interferencia de rede.
+- !!python/object:media.Movie
+  title: Avengers Infinity War
+  storyline: The history of a crazy Titan that plans to exterminate half the population of the Universe
+  poster_image_url: https://http2.mlstatic.com/poster-cartaz-filme-a3-marvel-vingadores-guerra-infinita-09-D_NQ_NP_684076-MLB27154811623_042018-F.jpg
+  trailer_youtube_url: https://www.youtube.com/watch?v=6ZfuNTqbHE8
+
+- !!python/object:media.Movie
+  title: Justice League
+  storyline: The DC's greatest heroes unite to fight a great evil
+  poster_image_url: https://images-na.ssl-images-amazon.com/images/I/51k6dsOINoL.jpg
+  trailer_youtube_url: https://www.youtube.com/watch?v=r9-DM9uBtVI
+
+- !!python/object:media.Movie
+  title: The Prestige
+  storyline: Two magical rivals compete for the best trick.
+  poster_image_url: https://images-na.ssl-images-amazon.com/images/I/61SF0ylP%2BML._SY606_.jpg
+  trailer_youtube_url: https://www.youtube.com/watch?v=ijXruSzfGEc
+
+- !!python/object:media.Movie
+  title: Catch me if you can
+  storyline: The true story of a real fake
+  poster_image_url: https://cdn.shopify.com/s/files/1/1416/8662/products/catch_me_if_you_can_2002_original_film_art_spo_2000x.jpg?v=1543418719
+  trailer_youtube_url: https://www.youtube.com/watch?v=xas1UyTiVUw
+
+- !!python/object:media.Movie
+  title: Jurassic Park III
+  storyline: An amusement park full of dinosaurs back to life.
+  poster_image_url: https://images-na.ssl-images-amazon.com/images/I/81ioTlhxw-L._SY679_.jpg
+  trailer_youtube_url: https://www.youtube.com/watch?v=gjIaV6CU0wA
+
+- !!python/object:media.Movie
+  title: The Lion King
+  storyline: A story about a little lion that will become king
+  poster_image_url: https://img.auctiva.com/imgdata/7/9/9/4/6/1/webimg/918301242_o.jpg
+  trailer_youtube_url: https://www.youtube.com/watch?v=hY7xBISLBIA
